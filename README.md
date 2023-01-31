@@ -20,7 +20,7 @@ Welcome to the Ticket Dispatch System! This project is a web-based platform for 
 - Firebase Admin
 
 ## Prerequisites
-- Google API Key
+- Google API Key with Google Maps/Places enabled
 - Firebase API Key
 - 'tickets' collection in Firestore
 - 'dispatch_events' collection in Firestore
