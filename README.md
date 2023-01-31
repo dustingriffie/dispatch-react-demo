@@ -45,7 +45,19 @@ $ touch .env.local
 REACT_APP_GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
 REACT_APP_FIREBASE_API_KEY=YOUR_FIREBASE_API_KEY
 ```
-5. Add your Firebase Admin API details to the 'lib/fireConfig.js' file
+5. Add your Firebase API details to the `lib/firebase.js` file
+```Javascript
+const firebaseConfig = {
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: "XXX",
+  databaseURL: "XXX",
+  projectId: "XXX",
+  storageBucket: "XXX",
+  messagingSenderId: "XXX",
+  appId: "XXX"
+}
+```
+6. Add your Firebase Admin API details to the 'lib/fireConfig.js' file
 ```Javascript
 export const fireConfig = {
     "type": "XXX",
@@ -60,11 +72,11 @@ export const fireConfig = {
     "client_x509_cert_url": "XXX"
 }
 ```
-6. Start the development server
+7. Start the development server
 ```
 $ npm run dev
 ```
-7. Open [http://localhost:3000](http://localhost:3000) to view the application in the browser.
+8. Open [http://localhost:3000](http://localhost:3000) to view the application in the browser.
 
 ## Conclusion
 
