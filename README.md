@@ -30,7 +30,7 @@ Welcome to the Ticket Dispatch System! This project is a web-based platform for 
 
 1. Clone the repository
 ```
-$ git clone https://github.com/dustingriffie/gps-demo.git
+$ git clone https://github.com/dustingriffie/dispatch-react-demo.git
 ```
 2. Install dependencies
 ```
