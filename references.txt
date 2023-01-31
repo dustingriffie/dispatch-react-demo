@@ -1,0 +1,29 @@
+
+    //  useEffect(() => {
+    //    const el = cafeListRef.current;
+    //    if (el) {
+    //      onSnapshot(q, (snapshot) => {
+    //        let tickets = []
+    //        snapshot.docs.forEach((doc) => {
+    //          tickets.push(
+    //           <li className={styles.ticketsli} key={doc.id}>
+    //           <span className={styles.ticketsspan}>Document ID: {doc.id}</span>
+    //           <span className={styles.ticketsspan}>Title: {doc.data().title}</span>
+    //           <span className={styles.ticketsspan}>Description: {doc.data().desc}</span>
+    //           <span className={styles.ticketsspan}>Address: {doc.data().address}</span>
+    //           <div className={styles.buttons}>
+    //               <button onClick={() => handleDetailsClick(snapshot, doc.id)} className={styles.ticketsbtn}>Details</button>
+    //               <button onClick={() => handleAssignClick()} className={styles.ticketsbtn}>Assign</button>
+    //           </div>   
+    //       </li>
+    //          );
+    //        })
+          
+           
+    //        ReactDOM.render(React.createElement('ul', null, tickets), el);
+    //      });
+    //    }
+    //  }, [cafeListRef]);
+ 
+         
+      // const filterByUidTickets = tickets.filter((ticket) => ticket.uid === 'test')

@@ -1,0 +1,171 @@
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 90vh;
+  margin:100px;
+}
+
+.griditem {
+  background-color: #093566;
+  color:white;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 100px;
+  text-align: center;
+  cursor:pointer;
+  
+}
+.griditem:hover{
+  transform: scale(1.02);
+}
+.griditem a {
+  text-decoration: none;
+}
+
+.ticketsli {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+.ticketsspan {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 200;
+  color: #333;
+}
+
+
+.buttons {
+  float: right;
+  margin-left:auto;
+  padding-right:3%;
+
+}
+
+.ticketsbtn {
+  background-color: #093566;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 800px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px #ccc;
+}
+
+.modal h2 {
+  margin-bottom: 1rem;
+}
+
+.modal p {
+  margin-bottom: 1rem;
+}
+
+.modal button {
+  background-color: #093566;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.undo_button_container {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+  width: fit-content;
+}
+
+.undo_button {
+  background-color: #093566; /* Green */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.undo_button:hover {
+
+  transform: scale(1.02);
+
+}
+
+.headerList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.headerItem {
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid gray;
+  padding: 5px;
+}
+
+.headerItem:last-child {
+  border-right: none;
+}
+
+.rowList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(193, 222, 248, 0.331);
+  list-style: none;
+  margin-top: 5px;
+}
+
+.rowItem {
+  width: 25%;
+  text-align: center;
+  padding: 5px;
+}
+
+.rowItem:last-child {
+  border-right: none;
+}
+
+.odd {
+  background-color: white;
+}
+
+.ticketPreviewDetails {
+
+  width: 100%;
+  max-width: 800px;
+
+}
+
